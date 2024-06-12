@@ -6,12 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "http-server -o"
-
   },
   "author": "E. Byrne",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^14.1.1",
-    "cns-cna": "git+https://github.com/CNAWebShellDev/cna-css.git"
+    "cna-cna": "git+https://github.com/CNAWebShellDev/cna-css.git",
+    "http-server": "^14.1.1"
   }
 }
