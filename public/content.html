@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Blank Content Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap CDN CSS -->	
+        <link rel="stylesheet" href="/shared/theme/assets/thirdpartylib/bootstrap-3.3.6/css/bootstrap.min.css">
+        
+        <!-- Course Styles -->
+        <link rel="stylesheet" href="/shared/theme/cnatheme/assets/css/main.min.css">
+        <link rel="stylesheet" href="/shared/theme/cnatheme/assets/css/style-guide.min.css">
+        
+        <!-- Container Files -->
+        <link rel="stylesheet" type="text/css" href="/shared/theme/cnatheme/assets/css/containers.css" />
+        
+        <!-- Table files -->
+        <link rel="stylesheet" type="text/css" href="/shared/theme/cnatheme/assets/css/grey-responsive-table.css" />
+        <link rel="stylesheet" type="text/css" href="/shared/theme/cnatheme/assets/css/blue-responsive-table.css" />
+
+        <!-- Highlight files -->
+        <link rel="stylesheet"href="/shared/theme/highlights/styles/vs2015.css">
+        <script src="/shared/theme/cnatheme/assets/../../highlights/highlight.pack.js"></script>
+        <script>function lti_launch( vars ) { var query = ''; for(var key in vars) { if(query.length == 0) { query += '?' + key + '=' + encodeURIComponent(vars[key]); } else { query += '&' + key + '=' + encodeURIComponent(vars[key]); } } location.replace( '/d2l/customization/pearsonlti/346233/Launch' + query ); }</script><script src="/d2l/im/d2lreader/D2LReader_v2.js?rsUrl=https%3a%2f%2fapp.readspeaker.com%2fcgi-bin%2frsent&amp;custId=11729&amp;lang=en_us&amp;voice=Kate&amp;listenText=Listen&amp;listenTitle=Listen+to+this+page&amp;v=20.21.2.27566-73"></script><script>
+            const allowDetach = true;
+
+            window.rsConf = {
+                general: { usePost: true },
+                ui: {
+                    disableDetachment: !allowDetach,
+                    playbackDetach: allowDetach,
+                    tools: { detachment: allowDetach }
+                }
+            };
+        </script>
+        <script src="https://cdn1.readspeaker.com/script/11729/webReaderForEducation/brightspace/v3.3/webReader.js?pids=wr&amp;dload=BrightSpace&amp;v=20.21.2.27566-73"></script><script src="/d2l/common/math/MathML.js?v=20.21.2.27566-73"></script><script>document.addEventListener('DOMContentLoaded', function() { D2LMathML.DesktopInit('https://s.brightspace.com/lib/mathjax/2.7.4/MathJax.js?config=MML_HTMLorMML','https://s.brightspace.com/lib/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML%2cSafe','130'); });</script><script>window.addEventListener('message', function(event) { 
+                if( !event.data ) {
+                    return;
+                }
+
+                var params;
+                try {
+                    params = JSON.parse( event.data );
+                }
+                catch {
+                    return;
+                }
+                if( !params.subject || params.subject !== 'lti.frameResize' ) {
+                    return;
+                }
+
+                const MAX_FRAME_HEIGHT = 10000
+                if( !params.height || params.height < 1 || params.height > MAX_FRAME_HEIGHT ) {
+                    console.warn( 'Invalid height value received, aborting' );
+                    return;
+                }
+                var el = document.getElementsByTagName( 'iframe' );
+                for ( var i=0; i < el.length; i++ ) {
+                    if( el[i].contentWindow === event.source ) {
+                        el[i].style.height = params.height + 'px';
+                        el[i].style.width = '100%';
+                        console.info( 'Setting iFrame height to ' + params.height );
+                        console.info( 'Setting iFrame width to 100%' );
+                    }
+                }
+            });
+        </script>
+    </head>
+
+    <body class="content" role="document">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                <header>
+                    <h1>Blank Content Page</h1>
+                    <div class="header-top-wrap"></div>
+                </header>
+                    <main>
+                        <p>ADD CONTENT HERE!</p>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery local fallback (Bootstrap Dependency) -->
+        <script src="/shared/theme/assets/thirdpartylib/jquery/jquery-1.11.3.min.js"></script>
+        <!-- Bootstrap CDN JS -->
+        <script src="/shared/theme/assets/thirdpartylib/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+        <!-- SVG Fallback JS -->
+        <script src="/shared/theme/assets/thirdpartylib/svg4everybody/svg4everybody.min.js"></script>
+        <!-- Course Scripts -->
+        <script src="/shared/theme/cnatheme/assets/js/main.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </body>
+
+</html>

@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Blank Content Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap CDN CSS -->	
+        <link rel="stylesheet" href="/shared/theme/assets/thirdpartylib/bootstrap-3.3.6/css/bootstrap.min.css">
+        
+        <!-- Course Styles -->
+        <link rel="stylesheet" href="/shared/theme/cnatheme/assets/css/main.min.css">
+        <link rel="stylesheet" href="/shared/theme/cnatheme/assets/css/style-guide.min.css">
+        
+        <!-- Container Files -->
+        <link rel="stylesheet" type="text/css" href="/shared/theme/cnatheme/assets/css/containers.css" />
+        
+        <!-- Table files -->
+        <link rel="stylesheet" type="text/css" href="/shared/theme/cnatheme/assets/css/grey-responsive-table.css" />
+        <link rel="stylesheet" type="text/css" href="/shared/theme/cnatheme/assets/css/blue-responsive-table.css" />
+
+        <!-- Highlight files -->
+        <link rel="stylesheet"href="/shared/theme/highlights/styles/vs2015.css">
+        <script src="/shared/theme/cnatheme/assets/../../highlights/highlight.pack.js"></script>
+        <script>function lti_launch( vars ) { var query = ''; for(var key in vars) { if(query.length == 0) { query += '?' + key + '=' + encodeURIComponent(vars[key]); } else { query += '&' + key + '=' + encodeURIComponent(vars[key]); } } location.replace( '/d2l/customization/pearsonlti/346233/Launch' + query ); }</script><script src="/d2l/im/d2lreader/D2LReader_v2.js?rsUrl=https%3a%2f%2fapp.readspeaker.com%2fcgi-bin%2frsent&amp;custId=11729&amp;lang=en_us&amp;voice=Kate&amp;listenText=Listen&amp;listenTitle=Listen+to+this+page&amp;v=20.21.2.27566-73"></script><script>
+            const allowDetach = true;
+
+            window.rsConf = {
+                general: { usePost: true },
+                ui: {
+                    disableDetachment: !allowDetach,
+                    playbackDetach: allowDetach,
+                    tools: { detachment: allowDetach }
+                }
+            };
+        </script>
+        <script src="https://cdn1.readspeaker.com/script/11729/webReaderForEducation/brightspace/v3.3/webReader.js?pids=wr&amp;dload=BrightSpace&amp;v=20.21.2.27566-73"></script><script src="/d2l/common/math/MathML.js?v=20.21.2.27566-73"></script><script>document.addEventListener('DOMContentLoaded', function() { D2LMathML.DesktopInit('https://s.brightspace.com/lib/mathjax/2.7.4/MathJax.js?config=MML_HTMLorMML','https://s.brightspace.com/lib/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML%2cSafe','130'); });</script><script>window.addEventListener('message', function(event) { 
+                if( !event.data ) {
+                    return;
+                }
+
+                var params;
+                try {
+                    params = JSON.parse( event.data );
+                }
+                catch {
+                    return;
+                }
+                if( !params.subject || params.subject !== 'lti.frameResize' ) {
+                    return;
+                }
+
+                const MAX_FRAME_HEIGHT = 10000
+                if( !params.height || params.height < 1 || params.height > MAX_FRAME_HEIGHT ) {
+                    console.warn( 'Invalid height value received, aborting' );
+                    return;
+                }
+                var el = document.getElementsByTagName( 'iframe' );
+                for ( var i=0; i < el.length; i++ ) {
+                    if( el[i].contentWindow === event.source ) {
+                        el[i].style.height = params.height + 'px';
+                        el[i].style.width = '100%';
+                        console.info( 'Setting iFrame height to ' + params.height );
+                        console.info( 'Setting iFrame width to 100%' );
+                    }
+                }
+            });
+        </script>
+    </head>
+
+    <body class="content" role="document">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                <header>
+                    <h1>Blank Content Page</h1>
+                    <div class="header-top-wrap"></div>
+                </header>
+                    <main>
+                        <h3>HTML5 semantic elements</h3>
+                        <table class="blue-table">
+                          <caption>
+                            The primary HTML5 semantic elements
+                          </caption>
+                          <tbody>
+                            <tr>
+                              <th scope="col" width="30%">Method</th>
+                              <th scope="col" width="70%">Description</th>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">header</td>
+                              <td data-th="Column Header 4">The header for a page.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">main</td>
+                              <td data-th="Column Header 4">The main content of a page. Can only appear once per page, and cannot be a child of an atricle, aside, footer, header, or nav element.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">section</td>
+                              <td data-th="Column Header 4">A generic section of a document that doesn't indicate the type of content</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">article</td>
+                              <td data-th="Column Header 4">A composition like an artical in a paper</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">aside</td>
+                              <td data-th="Column Header 4">A portion of a page like a sidebar that is related to the content that's near it.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">nav</td>
+                              <td data-th="Column Header 4">A portion of the page that contains links to other pages or placeholders.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">figure</td>
+                              <td data-th="Column Header 4">An image, talbe, or other component that's treated as a figure.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">footer</td>
+                              <td data-th="Column Header 4">The footer of the page.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h4>A page that's structured with header, main and footer elements</h4>
+						<pre><code>&lt;body&gt;
+	&lt;header&gt;
+		&lt;h1&gt;San Jaquin Vally Town Hall&lt;/h1&gt;
+	&lt;/header&gt;
+	&lt;main&gt;
+		&lt;p&gt;Welcome to San Joaquin Valley Town Hall. We have some
+		   facinating speakers for you this season!&lt;/p&gt;
+	&lt;/main&gt;
+	&lt;footer&gt;
+		&lt;p&gt;&amp;copy; San Joaquin Valley Town Hall.&lt;/p&gt;
+	&lt;/footer&gt;
+&lt;/body&gt;
+</code></pre>
+                        <h4>The page displayed in a web browser</h4>
+						<figure><img src="../images/semantic_html_in_browser.png" class="img-responsive" alt="Semantic Web Page in browser"/>
+					    <figcaption>Semantic web page in browser</figcaption></figure>
+                        <h4>Remember</h4>
+                        <ul>
+                          <li>HTML5 provides semantic elements that you shoud use to structure the contents of a web page. using these elements can be reffered to as HTML5 semantics.</li>
+                          <li>All of the HTML5 elements are supported by the modern browsers.</li>
+                          <li>You will also use standard HTML elements like h1 and h2 elements for headings, img elements for images, &lt;a&gt; elements for links, and &lt;p&gt; elements for paragraphs</li>
+                        </ul>
+                        <h3>div and span elements</h3>
+                        <table class="blue-table">
+                          <caption>
+                            The div and span elements
+                          </caption>
+                          <tbody>
+                            <tr>
+                              <th scope="col" width="30%">Element</th>
+                              <th scope="col" width="70%">Description</th>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">div</td>
+                              <td data-th="Column Header 4">A block element that provides a container for other elements</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">span</td>
+                              <td data-th="Column Header 4">An inline element that lets you identify text that can be formatted with CSS.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h4>Div elements in the HTML for JavaScript application</h4>
+						<pre><code>&lt;section id =&quot;faqs&quot;&gt;
+	&lt;h1&gt;jQuery FAQs&lt;/h1&gt;
+	&lt;h2&gt;What is JavaScript?&lt;/h2&gt;
+	&lt;div&gt;
+		// contents
+	&lt;/div&gt;
+	&lt;h2&gt;What is jQuery?&lt;/h2&gt;
+	&lt;div&gt;
+		// contents
+	&lt;/div&gt;
+	&lt;h2&gt;Why is jQuery so popular?&lt;/h2&gt;
+	&lt;div&gt;
+		// conents
+	&lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+                        <h4>Span elements in the HTML for a JavaScript application</h4>
+					  <pre><code>&lt;div&gt;
+	&lt;label for=&quot;email_1&quot;&gt;Email Address:&lt;/label&gt;
+	&lt;input type=&quot;text&quot; id=&quot;email_1&quot; name=&quot;email_1&quot;&gt;
+	&lt;span id=&quot;email_1_error&quot;&gt;*&lt;/span&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;label for=&quot;email_2&quot;&gt;Re-emter Email Address:&lt;/label&gt;
+	&lt;input type=&quot;text&quot; id=&quot;email_2&quot; name=&quot;email_2&quot;&gt;
+	&lt;span id=&quot;email_2_error&quot;&gt;*&lt;/span&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;label for=&quot;first_name&quot;&gt;First Name:&lt;/label&gt;
+	&lt;input type=&quot;text&quot; id=&quot;first_name&quot; name=&quot;first_name&quot;&gt;
+	&lt;span id=&quot;first_name_error&quot;&gt;*&lt;/span&gt;
+&lt;/div&gt;
+</code></pre>
+                        <h4>Remember</h4>
+                        <ul>
+                          <li>Before HTML5, div elements were used todefine the structure within the body of a document. The ids for these div elemetns were then used by the CSS to apply formatting to the elements.</li>
+                          <li>Today, the HTML5 semantic elements should be used to make the structure of a page more apparent. However, you will stull use div elements to define blocks of code that are used in JavaScript applications.</li>
+                          <li>Before HTML5, span elements were often used to identify portions of test that you could apply formatting to.</li>
+                          <li>Today, a better practrice is to use specific elements to identify content. However, you will still use span elements for some JavaScript applications.</li>
+                        </ul>
+                        <h3>basic HTML attributes</h3>
+                        <table class="blue-table">
+                          <caption>
+                            The basic HTML attributes
+                          </caption>
+                          <tbody>
+                            <tr>
+                              <th scope="col" width="30%">Attribute</th>
+                              <th scope="col" width="70%">Description</th>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">id</td>
+                              <td data-th="Column Header 4">Specifies a unique identifer for an elemetn that can be reffered to by CSS.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">class</td>
+                              <td data-th="Column Header 4">Specifies one or more class names that can be referred to by CSS, and the same name can be used for more than one element. To code more than one class name, seperate the class names with spaces.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">name</td>
+                              <td data-th="Column Header 4">Specifies a unique name for an element that is commonly used by the server-side code and can also be used by the JavaScript code.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">for</td>
+                              <td data-th="Column Header 4">In a label elemetn, this attribute specifies the id for the control that it applies to.</td>
+                            </tr>
+                            <tr>
+                              <td data-th="Column Header 3">title</td>
+                              <td data-th="Column Header 4">Specifies addional information about an element. For some elements, the title appears in a tooltip when the user hovers the mouse over the element.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <h4>HTML that uses these attributes</h4>
+						<pre><code>&lt;body&gt;
+	&lt;h1&gt;San Joaquin Valley Town Hall&lt;/h1&gt;
+	&lt;h2 class=&quot;first_h2&quot;&gt;Welcome to San Joaquin Valley Town Hall.&lt;/h2&gt;
+	&lt;p&gt;Please enter your e-mail address to subscribe to our 
+		newsletter.&lt;/p&gt;
+	&lt;form	id=&quot;email_form: name=&quot;email_form&quot;
+			action=&quot;join.html&quot; method=&quot;get&quot;&gt;
+		&lt;label for=&quot;email&quot;&gt;E-Mail: &lt;/label&gt;
+		&lt;input type=&quot;text&quot; id=&quot;email&quot; name=&quot;email&quot;
+			title=&quot;Enter e-mail Address here.&quot;&gt;
+		&lt;input type=&quot;button&quot; value=&quot;Subscribe&quot;&gt;
+	&lt;/form&gt;
+&lt;/body&gt;
+</code></pre>
+                        <h4>The HTML in a web browser with a tool tip displayed for the textbox</h4>
+						<figure><img src="../images/webbroswer_tool_tip.png" class="img-responsive" alt="HTML with tooltip"/>
+					    <figcaption>HTML with tooltip in browser</figcaption></figure>
+                        <h4>Remember</h4>
+                        <ul>
+                          <li>An attribute consists of an attribute name, an equals sign, and the value of teh attribute enclosed in either single or double quotation marks.</li>
+                          <li>The id and class attributes are commonly used to apply CSS formatting. The id attribute is also commonly used by JavaScript code to access an element.</li>
+                          <li>The name attribute is commonly used by server-side code to access data.</li>
+                          <li>The for attribute in a label element is used to identify the control that it applies to.</li>
+                        </ul>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery local fallback (Bootstrap Dependency) -->
+        <script src="/shared/theme/assets/thirdpartylib/jquery/jquery-1.11.3.min.js"></script>
+        <!-- Bootstrap CDN JS -->
+        <script src="/shared/theme/assets/thirdpartylib/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+        <!-- SVG Fallback JS -->
+        <script src="/shared/theme/assets/thirdpartylib/svg4everybody/svg4everybody.min.js"></script>
+        <!-- Course Scripts -->
+        <script src="/shared/theme/cnatheme/assets/js/main.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </body>
+
+</html>
