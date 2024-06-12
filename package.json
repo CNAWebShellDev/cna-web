@@ -1,0 +1,16 @@
+{
+  "name": "cna-web",
+  "version": "1.0.0",
+  "description": "CSS module for creating course shells for CNA's d2l server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server -o"
+
+  },
+  "author": "E. Byrne",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
